@@ -1,8 +1,7 @@
 ## 🤖 Finger-Controlled LED System with ESP8266 & OpenCV
 ## 📌 Project Description
-This project is an LED light control system using real-time finger detection via a laptop camera/webcam. The system utilizes OpenCV and MediaPipe for image processing, and the ESP8266 to control two LED lights.
-- If 2 or 5 fingers are detected, the LED lights up.
-- If anything else (0, 1, 3, or 4 fingers are detected), the LED turns off.
+This project is an implementation of hand-gesture-based LED light control utilizing Computer Vision and Internet of Things (IoT) technology.
+Using a laptop/PC camera, the system can detect the number of raised fingers in real time and then send commands to the ESP8266 to control the on/off of two LEDs connected to a microcontroller board. This system combines image processing using OpenCV and MediaPipe with serial communication between Python and the ESP8266. MediaPipe is used to detect the position of points on the hand (landmarks), while OpenCV is responsible for displaying visualizations such as bounding boxes, the number of fingers, and LED status on the screen.
 
 ## 🛠️ Tools & Materials
 - ESP8266 (NodeMCU / Wemos D1 Mini)
