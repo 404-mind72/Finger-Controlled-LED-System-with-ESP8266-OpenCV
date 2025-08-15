@@ -35,7 +35,7 @@ python app.py
 5. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
 
 ## 📷 Demo
-![Bar Plot](result.mp4)
+![Bar Plot](result.gif)
 
 ## 📋 Uses in Daily Life (Descriptive)
 
