@@ -20,17 +20,17 @@ This project is an LED light control system using real-time finger detection via
 
 Schematic Diagram
 
-![Bar Plot](output.png)
+![Bar Plot](schematic.png)
 
 ## ▶️ How to Run
-### 1. Upload the test.ino code to the ESP8266 using the Arduino IDE.
-### 2. Run app.py in Python :
+1. Upload the test.ino code to the ESP8266 using the Arduino IDE.
+2. Run app.py in Python :
 ```bash
 pip install opencv-python mediapipe pyserial
 python app.py
 ```
-### 3. Make sure the COM port in app.py matches the ESP8266 port.
-### 4. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
+3. Make sure the COM port in app.py matches the ESP8266 port.
+ 4. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
 
 ## 📷 Demo
 ![Bar Plot](output.mp4)
