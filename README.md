@@ -24,16 +24,36 @@ Schematic Diagram
 
 ## ▶️ How to Run
 1. Upload the test.ino code to the ESP8266 using the Arduino IDE.
-2. Run app.py in Python :
+2. Install Dependencies
 ```bash
 pip install opencv-python mediapipe pyserial
+```
+3. Run app.py in Python :
+```bash
 python app.py
 ```
-3. Make sure the COM port in app.py matches the ESP8266 port.
- 4. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
+4. Make sure the COM port in app.py matches the ESP8266 port.
+5. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
 
 ## 📷 Demo
 ![Bar Plot](output.mp4)
+
+## 📋 Uses in Daily Life (Descriptive)
+
+This system is designed to provide a touchless electronic device control solution, which has many real-life benefits :
+1. Touchless Light Control
+- Useful in environments that require high hygiene, such as hospital operating rooms, laboratories, or kitchens.
+- Reduces the risk of transmitting bacteria or viruses because there's no need to touch switches.
+2. Accessibility Technology
+- Helps people with disabilities or the elderly who have difficulty operating physical switches.
+- Device control becomes easier with just hand gestures.
+3. Smart Home & Home Automation
+- Can be integrated with smart home systems to control lights, fans, automatic blinds, or other electronic devices touchlessly.
+4. Technology Exhibitions & Education
+- Great for display at technology exhibitions or as teaching materials in schools/universities.
+- Teaching basic concepts of Computer Vision and IoT through real-world applications.
+5. Modern Work Environment
+- Can be used in offices, recording studios, or creative workspaces to control spotlights, audio equipment, or other devices without leaving your work position.
 
 ## 🚩Contributions
 I would appreciate contributions to improve the model, add or enhance features, and optimize the deployment process. For any queries, reach out to me at joni150703@gmail.com
