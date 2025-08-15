@@ -23,16 +23,17 @@ Schematic Diagram
 ![Bar Plot](output.png)
 
 ## ▶️ How to Run
-1. Upload the test.ino code to the ESP8266 using the Arduino IDE.
-2. Run app.py in Python:
+### 1. Upload the test.ino code to the ESP8266 using the Arduino IDE.
+### 2. Run app.py in Python :
 ```bash
 pip install opencv-python mediapipe pyserial
 python app.py
-```bash
-3. Make sure the COM port in app.py matches the ESP8266 port.
-4. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
+```
+### 3. Make sure the COM port in app.py matches the ESP8266 port.
+### 4. Point your hand at the camera → the LED will turn on/off according to the number of fingers.
 
 ## 📷 Demo
+![Bar Plot](output.mp4)
 
 ## 🚩Contributions
 I would appreciate contributions to improve the model, add or enhance features, and optimize the deployment process. For any queries, reach out to me at joni150703@gmail.com
